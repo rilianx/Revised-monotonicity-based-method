@@ -1,6 +1,6 @@
-# Revised-monotonicity-based-method-for-computing-sharp-image-enclosures-of-functions
+# Revised monotonicity based method for computing image enclosures
 
-In this code, we implemente a **revised** monotonicity-based method that may be applied even if the function is non-monotonic w.r.t. its variables. The method combines basic interval-based filtering techniques with a straightforward analysis of function derivatives. 
+In this code, we implement a **revised** monotonicity-based method that may be applied even if the function is non-monotonic w.r.t. its variables. The method combines basic interval-based filtering techniques with a straightforward analysis of function derivatives. 
 
 - First, by performing filtering with partial derivatives, we detect sub-intervals in the domain where the function **certainly** increase or decrease. 
 - Then, depending on the case, we can know in which subdomains in the interval should be the value maximizing (resp. minimizing) the function. 
